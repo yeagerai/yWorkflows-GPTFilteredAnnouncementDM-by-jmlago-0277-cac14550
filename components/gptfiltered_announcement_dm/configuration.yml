@@ -11,5 +11,7 @@ description: "This Yeager Workflow fetches announcements from specified channels
   \ \n        A list of dictionaries containing:\n          - channel: The ID of the\
   \ announcement channel where the message was posted.\n          - content: The original\
   \ content of the filtered message.\n"
+input-class: InputAnnouncementModel
 name: GPTFilteredAnnouncementDM
+output-class: OutputDirectMessageModel
 parameters: {}
